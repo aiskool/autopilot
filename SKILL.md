@@ -1,6 +1,16 @@
 ---
 name: autopilot
-description: Two-phase workflow: plan first, wait for approval, then execute autonomously. Includes git safety net, parallel subagents, and auto-learning from errors.
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Grep
+  - Glob
+  - View
+description: >
+  Two-phase workflow: plan first, wait for approval, then execute autonomously.
+  Includes git safety net, parallel subagents, and auto-learning from errors.
 ---
 
 # Autopilot — Plan → Execute Workflow
