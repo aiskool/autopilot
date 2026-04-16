@@ -28,7 +28,7 @@ Autopilot forces Claude Code into a two-phase workflow for any non-trivial task:
 
 ```bash
 mkdir -p ~/.claude/skills/autopilot
-curl -fsSL https://raw.githubusercontent.com/aiskool/autopilot-skill/main/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/aiskool/autopilot/main/SKILL.md \
   -o ~/.claude/skills/autopilot/SKILL.md
 ```
 
@@ -37,7 +37,7 @@ curl -fsSL https://raw.githubusercontent.com/aiskool/autopilot-skill/main/SKILL.
 ```bash
 cd /path/to/your/project
 mkdir -p .claude/skills/autopilot
-curl -fsSL https://raw.githubusercontent.com/aiskool/autopilot-skill/main/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/aiskool/autopilot/main/SKILL.md \
   -o .claude/skills/autopilot/SKILL.md
 ```
 
