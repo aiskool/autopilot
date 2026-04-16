@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Read(//Users/karim/Documents/Projects/**)",
+      "Bash(mv autopilot-skill *)"
+    ]
+  }
+}
