@@ -1,19 +1,6 @@
 ---
 name: autopilot
-description: >
-  Impose un workflow structuré en deux phases : PLANIFICATION puis EXÉCUTION.
-  Claude doit d'abord produire un plan détaillé, attendre la validation explicite
-  de l'utilisateur, puis exécuter le plan complet de manière autonome sans
-  commentaires superflus et sans demander d'accord intermédiaire.
-  Inclut : filet de sécurité git (commit automatique avant exécution + rollback
-  en cas d'échec), checkpoints de progression, parallélisation via subagents
-  pour les étapes indépendantes, et apprentissage automatique des erreurs
-  dans un fichier lessons.md.
-  Utiliser ce skill pour toute tâche non triviale impliquant 3+ étapes :
-  développement de features, refactoring, migrations, corrections de bugs
-  complexes, mise en place d'architecture, configuration multi-fichiers,
-  ou toute demande où l'utilisateur dit "planifie", "fais un plan",
-  "prépare avant d'exécuter", ou invoque /autopilot.
+description: Two-phase workflow: plan first, wait for approval, then execute autonomously. Includes git safety net, parallel subagents, and auto-learning from errors.
 ---
 
 # Autopilot — Plan → Execute Workflow
